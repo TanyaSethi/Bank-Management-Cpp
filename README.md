@@ -1,20 +1,22 @@
 # Bank_Management_C-
-an interactive Banking System using C++ and GUI in C++. Includes features like Login, create/edit accounts, Transact, Display accuont
+An interactive Banking System using C++ and GUI in C++. Includes features like Login, create/edit accounts, Transact, Display accuont
 
 Introduction
 This Bank Management System is designed to overcome the entire problem which we are facing currently, and to make complete atomization of manual system to computerized system. Since the current banking system is implemented in Manual, so the response is very slow. The Bank Management System eliminates this limitation of the existing software.  It has the following objectives:
 
- 	Enhancement:
+Enhancement:
 The main objective of Bank Management System is to enhance and upgrade the existing system by increasing its efficiency and effectiveness. The software improves the working methods by replacing the existing manual system with the computer-based system.
 
- 	Automation:
+Automation:
 The Bank Management System automates each and every activity of the manual system and increases its throughput. Thus the response time of the system is very less and it works very fast.
- 	Accuracy:
+
+Accuracy:
 The Bank Management System provides the uses a quick response with very accurate information regarding the users etc. Any details or system in an accurate manner, as and when required.
- 	User-Friendly:
+
+User-Friendly:
 The software Bank Management System has a very user-friendly interface. Thus the users will feel very easy to work on it. The software provides accuracy along with a pleasant interface.
  
- 	Maintenance Cost:
+Maintenance Cost:
 
 The Bank Management System reduces the cost of maintenance.
 
@@ -54,7 +56,7 @@ The bank’s operating personnel can have a look at each account in the bank ind
 
 File Design Structure
 
- 	Records.txt
+Records.txt
 
 Name	Type	Width	Description
 name	Char(string)	40 characters	Name of the account holder
@@ -162,8 +164,7 @@ counter	integer	stores the count of accounts in the bank
 
 MEMBER FUNCTIONS
 void read_from_file(int)	Function to read the details of an account from the file records.txt 
-void write_to_file(int)
-	Function to write the details of an account to the file records.txt
-void count_records()	Function to count the number of accounts in the bank
+void write_to_file(int)		Function to write the details of an account to the file records.txt
+void count_records()		Function to count the number of accounts in the bank
 
 
