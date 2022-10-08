@@ -190,6 +190,7 @@ void graphics::blink(int x_pos,int y_pos)
 }
 
 /***************************FUNCTIONS OF CLASS BANK  *********************************/
+/* Screen to open new account */
 
 void bank::open_new_account()
 {
@@ -239,7 +240,7 @@ outtextxy(5,420,"YOUR ACCOUNT HAS BEEN CREATED SUCCESSFULLY");
 getch();
 m.show_menu();
 }
-
+*/ List of all accounts 
 void bank::list_of_accounts()
 {
 setcolor(15);
@@ -287,7 +288,7 @@ y+=3;
 getch();
 m.show_menu();
 }
-
+/* List all transactions, given an account */
 void bank::transactions()
 {
 menu m;
