@@ -385,7 +385,7 @@ getch();
 m.show_menu();
 }
 
-
+/* See details of bank and amount, given an account number */
 
 void bank::see_account()
 {
@@ -444,7 +444,7 @@ getch();
 m.show_menu();
 }
 
-
+/* Edit address of an account, given account number */
 void bank::edit_account()
 {
 menu m;
