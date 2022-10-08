@@ -1,4 +1,4 @@
-# Bank_Management_C-
+# Bank_Management_C++
 An interactive Banking System using C++ and GUI in C++. Includes features like Login, create/edit accounts, Transact, Display accuont
 
 Introduction
